@@ -1,0 +1,106 @@
+body {
+  margin: 0 auto;
+}
+#header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#logo {
+  margin-left: 20px;
+}
+#liens {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+#propositions {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+#photo-belle-voiture {
+  position: static;
+  width: 48.4%;
+}
+#oui {
+  visibility: hidden;
+}
+#reservation {
+  border-top: solid 12px rgb(54, 196, 180);
+  background-color: rgba(54, 196, 180, 0.5);
+}
+#reservation-left {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border: solid grey 3px;
+  padding: auto;
+  margin-top: 50px;
+  margin-right: 90px;
+}
+#titre-reservation {
+  text-align: center;
+}
+#formulaire_reservation {
+}
+#ville,
+#depart,
+#arrivee,
+#type-vehicule {
+  margin-left: 50px;
+}
+input {
+  border: solid grey;
+  background-color: grey;
+  text-decoration: none;
+}
+#auto,
+#camion,
+#moto,
+#velo {
+  width: 80px;
+  height: 80px;
+}
+#boutton_recherche {
+  background-color: rgb(54, 196, 180);
+  border: rgb(54, 196, 180) solid;
+  border-radius: 10px;
+  text-align: center;
+}
+#offres {
+  text-align: center;
+}
+#photo-pers {
+  background-color: rgba(54, 196, 180, 0.5);
+}
+#img-offres {
+  width: 280px;
+  height: 250px;
+}
+#gamme-titre {
+  text-align: center;
+}
+#icones-gamme {
+}
+#img-clio {
+  width: 200px;
+  height: 300px;
+}
+#faq {
+  text-align: center;
+  background-color: rgba(54, 196, 180, 0.5);
+}
+.accordion {
+  width: 90%;
+  height: 90%;
+}
+#boutton {
+  color: white;
+  background-color: rgb(54, 196, 180);
+}
+#footer {
+  border-top: rgb(54, 196, 180) solid 12px;
+  color: grey;
+}
+h3 {
+  color: black;
+}

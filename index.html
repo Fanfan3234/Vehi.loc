@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Font du titre -->
+    <link href="https://fonts.googleapis.com/css?family=Hurricane&display=swap" rel="stylesheet" />
+    <!-- Font de la page entière -->
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!-- En-tete de la page -->
+    <header id="header" class="d-flex justify-content-sm-between">
+       <img src="images/Véhi’Loc.svg" alt="logo" id="logo" >
+        
+        <nav>
+            <div id="liens" >
+                <a href="#offres" id="propositions" >Nos Offres</a>
+                <a href="#gamme" id="propositions" >Nos véhicules</a>
+                <a href="#faq" id="propositions" >FAQ</a>
+                <a href="#" id="propositions" >Inscription / Connexion</a>
+            </div>
+        </nav>
+     
+    </header>
+
+    <!-- Zone de réservation -->
+    <section id="reservation" class="d-flex justify-content-evenly">
+        <img src="images/unsplash_pB7bUdsc0FM.svg" alt="image belle voiture" id="photo-belle-voiture" >
+        <!--<div id="oui">
+            Lorem ipsum dolor sit amet<br/> consectetur adipisicing elit. 
+            <br/>
+            Dignissimos doloremque numquam<br/> modi nam ullam accusantium 
+            <br/>
+            aliquid aliquam laboriosam at<br/> perspiciatis quis temporibus, 
+            <br/>
+            illo maiores id, totam<br/> cupiditate, odio voluptatem iste!
+            <br/>
+        </div>-->
+        <article id="reservation-left"class="card">
+            <form action="" id="formulaire_reservation"  >
+                <br/>
+                
+                <h3 id="titre-reservation"><strong>Réservez votre véhicule</strong></h3>
+                <div >
+                    <h4 id="ville" >Choisir une ville</h4>
+                    <div class="d-flex justify-content-center">
+                        <input type="text" size="30" >
+                    </div>
+                </div>
+                <div >
+                    <h4 id="depart">Départ</h4>
+                    <div  class="d-flex justify-content-around">
+                        <input type="date" >
+                        
+                        <input type="time" >
+                    </div>
+                </div>
+                <div >
+                    <h4 id="arrivee">Arrivée</h4>
+                    <div  class="d-flex justify-content-around">
+                        <input type="date" >
+                        
+                        <input type="time" >
+                    </div>
+                </div>
+                <div >
+                    <h4 id="type-vehicule">Type de véhicule :</h4>
+                    <div class="d-flex justify-content-center">
+                        <img src="images/Car.svg" alt="auto" id="auto">
+                        <img src="images/Truck.svg" alt="camion"id="camion">
+                        <img src="images/Dirt Bike.svg" alt="moto"id="moto">
+                        <img src="images/Bicycle.svg" alt="velo"id="velo">
+                    </div>
+                    <br/>
+                    <div class="d-flex justify-content-center">
+                    <button type="button" value="Rechercher" id="boutton_recherche" class="btn btn-secondary ">Rechercher</button>
+                    </div>
+                    <br/>
+                </div>
+                
+            </form>
+        </article>
+        
+    </section>
+    <br/>
+
+    <!-- Zone Nos Offres -->
+    <section id="offres">
+        <br/>
+        <h2><strong>Nos Offres du moment</strong></h2>
+        <br/>
+        <div id="avantages" class="d-flex justify-content-sm-around">
+            <article>
+                <div id="photo-pers">
+                    <img src="images/Rectangle 9.svg" alt="jeune femme au volant" id="img-offres">
+                    <p><strong><h4>Louez dès 18 ans <br/>sans surcout</h4></strong></p>
+                    <br/>
+                </div>
+            </article>
+            <article>
+                <div id="photo-pers">
+                    <img src="images/Rectangle 9-2.svg" alt="homme qui regarde son portable" id="img-offres">
+                    <p><strong><h4>Location 24/7</h4></strong></p>
+                    <br/>
+                    <br/>
+                </div>
+            </article>
+            <article>
+                <div id="photo-pers">
+                    <img src="images/Rectangle 9-1.svg" alt="homme assis au milieu des cartons" id="img-offres">
+                    <p><strong><h4>Déménagez en toute <br/>sérénité</h4></strong></p>
+                    <br/>
+                </div>
+            </article>
+    </section>
+
+    <!-- Zone Nos gammes de véhicules -->
+    <section id="gamme">
+        <br/>
+        <br/>
+        <h2 id="gamme-titre"><strong>Nos gammes de véhicules</strong></h2>
+        <article id="icones-gamme" class="d-flex justify-content-center">
+            <img src="images/Car.svg" alt="auto">
+            &nbsp
+            &nbsp
+            <img src="images/Truck.svg" alt="camion">
+            &nbsp
+            &nbsp
+            <img src="images/Dirt Bike.svg" alt="moto">
+            &nbsp
+            &nbsp
+            <img src="images/Bicycle.svg" alt="velo">
+        </article>
+        <article id="renault-clio" class="d-flex justify-content-around">
+            <div>
+                <img src="images/S8-renault-clio-comment-le-prix-de-base-s-est-envole-en-deux-ans-192370 1.svg" alt="Renault Clio" id="img-clio">
+                <p>
+                <h4><strong>Renault Clio</strong></h4>
+                à partir de 30€
+                </p>
+            </div>
+            <div>
+                <img src="images/S8-renault-clio-comment-le-prix-de-base-s-est-envole-en-deux-ans-192370 1.svg" alt="Renault Clio" id="img-clio">
+                <p>
+                <h4><strong>Renault Clio</strong></h4>
+                à partir de 30€
+                </p>
+            </div>
+            <div>
+                <img src="images/S8-renault-clio-comment-le-prix-de-base-s-est-envole-en-deux-ans-192370 1.svg" alt="Renault Clio" id="img-clio"> 
+                <p>
+                <h4><strong>Renault Clio</strong></h4>
+                à partir de 30€
+                </p>
+            </div>
+            <div>
+                <img src="images/S8-renault-clio-comment-le-prix-de-base-s-est-envole-en-deux-ans-192370 1.svg" alt="Renault Clio" id="img-clio">
+                <p>
+                <h4><strong>Renault Clio</strong></h4>
+                à partir de 30€
+                </p>
+            </div>
+           
+        </article> 
+            <br/>
+            <br/>
+    </section>
+
+    <!-- Zone FAQ -->
+    <section id="faq" >
+        <br/>
+        <h2><strong>FAQ</strong></h2>
+        <br/>
+       <div class="d-flex justify-content-center">
+        <div class="accordion " id="accordionPanelsStayOpenExample">
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button 
+                  id="boutton"
+                  class="accordion-button "
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                <strong>Comment récupérer le véhicule que j’ai loué ?</strong>
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+              >
+                <div class="accordion-body">
+                    <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque sint fuga quisquam nostrum
+                    officiis quod. Recusandae, obcaecati. Earum saepe eaque consectetur necessitatibus aspernatur,
+                    adipisci minus exercitationem quibusdam tempora quos mollitia tenetur tempore error iste perferendis
+                    possimus ut quod doloribus suscipit iure minima repellendus enim fugiat. Temporibus praesentium
+                    culpa quae.</strong></p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button
+                  id="boutton"
+                  class="accordion-button collapsed "
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                <strong>Où déposer le véhicule une fois la location terminée ?</strong>
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo"
+              >
+                <div class="accordion-body">
+                    <p><strong>Quia, quisquam officiis? Commodi aspernatur quibusdam, provident nostrum dolorum ullam vitae modi at
+                    quos laudantium voluptatum eos tenetur voluptatem doloribus accusamus numquam earum aut minus
+                    deleniti illo dolorem consequuntur? Officia praesentium, rerum minus ut veritatis consequatur
+                    quaerat, nihil debitis aspernatur asperiores neque voluptate dolores illo eius, sint libero! Magnam,
+                    quia?</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button
+                  id="boutton"
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                <strong>Est-ce que ma location est fourni avec une
+                    assurance ?</strong>
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree"
+              >
+                <div class="accordion-body">
+                  <p><strong>Dolorem ratione, alias veritatis facilis, consectetur laudantium inventore sint ex eligendi officia
+                    odio doloremque fugit placeat dolor nam. Provident ex quod ad quibusdam culpa placeat aspernatur
+                    similique mollitia asperiores blanditiis voluptas odit, dignissimos ullam, nostrum velit ab
+                    doloribus eaque facilis accusantium vitae amet libero quos earum. Illum fuga repellendus neque.</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <br/>
+          <br/>
+    </section>
+
+    <!-- Pied de Page -->
+    <footer id="footer" class="d-flex justify-content-evenly">
+        
+        
+        <div>
+            
+            <br/>
+            <h3><strong>Location de voiture</strong></h3>
+            <ul>
+                <br/>
+                location sur Lille
+                <br/>
+                location sur Paris
+                <br/>
+                location sur Lyon
+                <br/>
+                location sur Marseille
+                <br/>
+            </ul>
+        </div>
+        <div>
+            <br/>
+            <h3><strong>Location d’utilitaire</strong></h3>
+            <ul>
+                <br/>
+                location de fourgonette
+                <br/>
+                location de fourgon
+                <br/>
+                location de camionette
+                <br/>
+                location de camion hayon
+                <br/>
+            </ul>
+        </div>
+        <div>
+            <br/>
+            <h3><strong>Location déménagement</strong></h3>
+            <ul>
+                <br/>
+                location camion déménagement
+                <br/>
+                location garde meuble
+                <br/>
+                Nos kits de démagements
+                <br/>
+            </ul>
+        </div>
+        <div>
+            <br/>
+            <h3><strong>Qui sommes nous ?</strong></h3>
+            <ul>
+                <br/>
+                Devenir franchisé
+                <br/>
+                Nous contacter
+                <br/>
+                Conditions générales
+                <br/>
+                Conditions assurance complémentaire
+                <br/>
+            </ul>
+        </div>
+    </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+</body>
+
+</html>
