@@ -12,9 +12,12 @@ body {
   margin-top: 15px;
   margin-right: 20px;
 }
-#propositions {
-  text-decoration: none;
+a {
   color: black;
+  text-decoration: none;
+}
+#propositions:hover {
+  color: rgb(54, 196, 180);
   margin-right: 20px;
 }
 #photo-belle-voiture {
@@ -76,14 +79,24 @@ input {
   width: 280px;
   height: 250px;
 }
-#gamme-titre {
-  text-align: center;
-}
-#icones-gamme {
-}
-#img-clio {
+
+#img-peugeot:hover {
   width: 200px;
-  height: 300px;
+  height: 170px;
+}
+#img-wayscral:hover {
+  width: 200px;
+  height: 170px;
+}
+#img-cipollini:hover {
+  width: 200px;
+  height: 170px;
+}
+#img-cloot:hover {
+  width: 200px;
+  height: 170px;
+}
+#renault-clio {
 }
 #faq {
   text-align: center;
@@ -103,4 +116,61 @@ input {
 }
 h3 {
   color: black;
+}
+.slider {
+  width: 800px;
+  margin: 30px auto;
+  position: relative;
+}
+.slider-viewport {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+.slider-content {
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+.slider-content img {
+  width: 800px;
+  height: 400px;
+}
+.slider-nav {
+  position: absolute;
+  width: 100%;
+  bottom: -30px;
+  margin-top: 10px;
+  text-align: center;
+}
+.slider-nav a {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  background-color: #adafbc;
+  width: 15px;
+  height: 15px;
+  margin: 0 3px;
+}
+.slider-nav a:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+}
+#img2:target .slider-content {
+  -webkit-transform: translateX(-800px);
+  transform: translateX(-800px);
+}
+#img3:target .slider-content {
+  -webkit-transform: translateX(-1600px);
+  transform: translateX(-1600px);
+}
+#img4:target .slider-content {
+  -webkit-transform: translateX(-2400px);
+  transform: translateX(-2400px);
+}
+#img5:target .slider-content {
+  -webkit-transform: translateX(-3200px);
+  transform: translateX(-3200px);
 }
