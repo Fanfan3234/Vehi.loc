@@ -121,7 +121,7 @@ document.getElementById("camion").addEventListener("click", (e) => {
 let dirttable = [
   {
     marque: "Suzuki",
-    modele: "Hayabusa",
+    modele: "hayabusa",
     prix: 250,
   },
   {
